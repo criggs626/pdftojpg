@@ -1,0 +1,179 @@
+/* CSS Document */
+h1{
+        color:#252525;
+        font-family: .tk-proxima-nova bold;
+        font-size: 24pt;
+	text-align:center;
+}
+h2 {
+	color:#FFF;
+	text-align:center;
+        font-size: 36px;
+        font-family: .tk-proxima-nova bold;
+}
+h3{
+	color:#FFF;
+	text-align:center;
+        font-size: 30px;
+        font-family: .tk-proxima-nova semibold;
+}
+h4{
+	color:#464646;
+        font-size: 16pt;
+        font-family: .tk-proxima-nova;
+	text-align:center;
+}
+#tagline{
+	color: #464646;
+        font-size:24px;
+        font-family: .tk-proxima-nova semibold;
+}
+body{
+	background:#dbdbdb;
+        
+        
+}
+p{
+	text-align:center;
+}
+#main{
+	background-color:#FFF;
+	border-radius: 4px;
+        border: 15px solid #dbdbdb;
+        padding: 20px; 
+	height: 300px;
+        text-align:center;
+        box-shadow:inset 0px 0px 0px 2px #cccccc;
+}
+#dZUpload{
+	background-color:#FFF;
+	border-radius: 4px;
+        border: 15px solid #dbdbdb;
+        padding: 20px; 
+	height: 300px;
+        text-align:center;
+        box-shadow:inset 0px 0px 0px 2px #cccccc;
+
+}
+#second{
+    	background-color:#FFF;
+        border: 15px solid #dbdbdb;
+	height: auto;
+        box-shadow:inset 0px 0px 0px 2px #cccccc;
+
+	
+}
+
+#secondary{
+        color:#464646; 
+        text-align: center; 
+        font-size: 24pt;
+        padding-bottom:10px;
+        font-family: .tk-proxima-nova medium;
+        
+}
+a {
+    color:inherit;    
+}
+.modal{
+    display:none;
+    position:fixed;
+    z-index:1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('ajax-loader.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+div.fadeMe {
+    background:rgba(0,0,0,0.5);
+    width:100%; 
+    height:100%; 
+    z-index:10;
+    top:0; 
+    left:0; 
+    position:fixed;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    
+    
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #262626;
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+}
+div.main{
+	background-color:#FFF;
+	border-radius: 4px;
+        border: 15px solid #dbdbdb;
+        padding: 20px; 
+	height: 300px;
+        text-align:center;
+} 
+a:hover{
+    color:#33d6e2;
+}
+a.direct:hover{
+    color:#FFF;
+}
+.btn{
+    font-size: 16pt;
+    font-family: .tk-proxima-nova bold;
+    color:#FFF;
+    background-color:#33d6e2;
+    width: 165px;
+    
+}
+.btn:hover{
+    background-color: #5CDEE8;
+}
+div.jumbotron{
+    background-image:url("header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover; 
+    height:380px; 
+    align-self:center;
+}
+div.container{
+    text-align: center;
+}
+h2.header{
+     margin:1px;
+     padding:3px;   
+}
+h3.header{
+    margin:0;
+    padding:2px;
+}
+.dz-message {
+    text-align: center;
+    margin: 1em;
+}
+#tagline{
+    color:#464646;
+    font-size:24px;
+    font-family: .tk-proxima-nova semibold;
+}
