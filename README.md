@@ -11,7 +11,7 @@ The output supports gif, jpg, or png.
 
 ## Location
 The functioning site can be found at
-[PDFTOJPG](http://pdftojpg.com/).
+[PDFTOJPG](http://pdftojpeg.com/).
 
 ## External Dependencies
 * Bootstrap 
